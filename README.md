@@ -12,7 +12,7 @@ I first built the models and experimented with the dataset. Then, I used some of
 
 ## Project Report
 
-Upload your project report (4 pages) as a pdf with your repository, following this template: [google docs](https://docs.google.com/document/d/133H59WZBmH6MlAgFSskFLMQITeIC5d9b2iuzsOfa4E8/edit?usp=sharing).
+The report is available [here](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/tree/master/report)
 
 
 ## Model/Data
@@ -26,18 +26,31 @@ Briefly describe the files that are included with your repository:
 ## Code
 
 Your code for generating your project:
-- pix2pix model: Follow the steps in [pix2pix model](https://github.com/affinelayer/pix2pix-tensorflow)
+- pix2pix model: Followed the steps in [pix2pix model](https://github.com/affinelayer/pix2pix-tensorflow)
 - Style transfer model: style_transfer.ipynb
 
 ## Results
 
-Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- What you include here will very much depend on the format of your final project
-  - image files (`.jpg`, `.png` or whatever else is appropriate)
-  - 3d models
-  - movie files (uploaded to youtube or vimeo due to github file size limits)
-  - audio files
-  - ... some other form
+Two versions of results are shown below
+1. Generated stylized images from the validation dataset during testing
+- Input Image 
+![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/faces_test/images/f-021-01-inputs.png)
+
+- edgestoface generated from pix2pix model 
+![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/faces_test/images/f-021-01-outputs.png)
+
+- stylized image
+![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/style_transfer_results/_at_iteration_19.png)
+
+2. Generated stylized images from user inputs (my friends)
+- Input Image 
+![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/data/user-images/resized/autodraw-3.png)
+
+- edgestoface generated from pix2pix model 
+![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/data/user-images/output/output-autodraw3.png)
+
+- stylized image
+![Alt Text](https://github.com/ucsd-ml-arts/generative-visual-chandhini-g/blob/master/Images/5epochs.png)
 
 ## Technical Notes
 
@@ -48,10 +61,10 @@ Documentation of your results in an appropriate format, both links to files and 
 ## Reference
 
 References to any papers, techniques, repositories you used:
-- Papers
--- https://arxiv.org/abs/1611.07004
--- https://arxiv.org/abs/1508.06576
-- Repositories
--- https://github.com/affinelayer/pix2pix-tensorflow
-- Blog posts
--- https://ml4a.github.io/guides/Pix2Pix/
+Papers
+- https://arxiv.org/abs/1611.07004
+- https://arxiv.org/abs/1508.06576
+Repositories
+- https://github.com/affinelayer/pix2pix-tensorflow
+Blog posts
+- https://ml4a.github.io/guides/Pix2Pix/
