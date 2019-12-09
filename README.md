@@ -1,28 +1,33 @@
 # Final Project
 
-Your Name, yourcontact@ucsd.edu
+Chandhini Grandhi, cgrandhi@ucsd.edu
 
-(Your teammates' contact info, if appropriate)
 
 ## Abstract Proposal
 
-FIRST STEP: Write up a description (in the form of an abstract) of what you will revisit for your final project. This should be one paragraph clearly describing your concept and approach. What are your desired creative goals? How are you expanding on something we covered in the class? How will you present your work next Wednesday in the final project presentations? 
+In this project, I decided to work on improving my project 3 - image to image translation using pix2pix mode and combine it with style transfer to generate a stylised image from sketches. The project takes in a dataset of faces of people obtained from [CUHK dataset](http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html) . It consists of two phases: The first model is a Pix2pix Generative Adversarial networks that takes in the image, does the processing required and generates the photos from this. Essentially, this step involves translating edges to faces. The second model is the Neural Style transfer whose content image is the image generated from pix2pix model and style image is chosen by the user.The final generated image is the stylized version of face image generated from edges. 
+
+I first built the models and experimented with the dataset. Then, I used some of the images drawn by my friends (Available in data/user-images) and generated standalone faces from user sketches and performed style transfer on them.
+
 
 ## Project Report
 
 Upload your project report (4 pages) as a pdf with your repository, following this template: [google docs](https://docs.google.com/document/d/133H59WZBmH6MlAgFSskFLMQITeIC5d9b2iuzsOfa4E8/edit?usp=sharing).
 
+
 ## Model/Data
 
 Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data)
+- data : Input and generated output images of the pix2pix model are located in the data folder
+- trained models: single_test contains the trained checkpoint for the pix2pix model
+- pix2pixtensorflow : contains the cloned version of [pix2pix model](https://github.com/affinelayer/pix2pix-tensorflow)
+
 
 ## Code
 
 Your code for generating your project:
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+- pix2pix model: Follow the steps in [pix2pix model](https://github.com/affinelayer/pix2pix-tensorflow)
+- Style transfer model: style_transfer.ipynb
 
 ## Results
 
@@ -36,13 +41,17 @@ Documentation of your results in an appropriate format, both links to files and 
 
 ## Technical Notes
 
-Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+- The code runs on Google CoLab
+- The code requires pip, TensorFlow, OpenCv libraries to run.
+
 
 ## Reference
 
 References to any papers, techniques, repositories you used:
 - Papers
+-- https://arxiv.org/abs/1611.07004
+-- https://arxiv.org/abs/1508.06576
 - Repositories
+-- https://github.com/affinelayer/pix2pix-tensorflow
 - Blog posts
+-- https://ml4a.github.io/guides/Pix2Pix/
