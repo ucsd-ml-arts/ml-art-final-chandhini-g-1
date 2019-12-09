@@ -33,24 +33,24 @@ Your code for generating your project:
 
 Two versions of results are shown below
 1. Generated stylized images from the validation dataset during testing
-- Input Image 
+- Input Image <br />
 ![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/faces_test/images/f-021-01-inputs.png)
 
-- edgestoface generated from pix2pix model 
+- edgestoface generated from pix2pix model <br />
 ![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/faces_test/images/f-021-01-outputs.png)
 
-- stylized image
-![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/style_transfer_results/_at_iteration_19.png)
+- stylized image<br />
+![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/style_transfer_results/validation-data.png)
 
 2. Generated stylized images from user inputs (my friends)
-- Input Image 
+- Input Image <br />
 ![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/data/user-images/resized/autodraw-3.png)
 
-- edgestoface generated from pix2pix model 
+- edgestoface generated from pix2pix model<br />
 ![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/data/user-images/output/output-autodraw3.png)
 
-- stylized image
-![Alt Text](https://github.com/ucsd-ml-arts/generative-visual-chandhini-g/blob/master/Images/5epochs.png)
+- stylized image<br />
+![Alt Text](https://github.com/ucsd-ml-arts/ml-art-final-chandhini-g-1/blob/master/style_transfer_results/user-image.png)
 
 ## Technical Notes
 
