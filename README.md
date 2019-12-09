@@ -61,10 +61,10 @@ Two versions of results are shown below
 ## Reference
 
 References to any papers, techniques, repositories you used:
-Papers <br />
+- Papers
 - https://arxiv.org/abs/1611.07004
 - https://arxiv.org/abs/1508.06576
-Repositories <br />
+- Repositories 
 - https://github.com/affinelayer/pix2pix-tensorflow
-Blog posts <br />
+- Blog posts 
 - https://ml4a.github.io/guides/Pix2Pix/
